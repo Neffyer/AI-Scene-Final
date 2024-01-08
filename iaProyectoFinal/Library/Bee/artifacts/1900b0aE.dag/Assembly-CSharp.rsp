@@ -413,6 +413,9 @@
 "Assets/Scripts/FlockManager.cs"
 "Assets/Scripts/Follow.cs"
 "Assets/Scripts/Formation.cs"
+"Assets/Scripts/HideBB.cs"
+"Assets/Scripts/IsCopNear.cs"
+"Assets/Scripts/Moves.cs"
 "Assets/Scripts/Patroll.cs"
 -langversion:9.0
 
