@@ -395,7 +395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 358357485}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.16, y: 6.05, z: 20.2}
+  m_LocalPosition: {x: 8.05, y: 6.05, z: 15.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -457,6 +457,10 @@ PrefabInstance:
     - target: {fileID: 4543707940384584596, guid: fd6f818d1c291e742ae9b45dd4e04996, type: 3}
       propertyPath: m_Name
       value: Formation1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4543707940384584596, guid: fd6f818d1c291e742ae9b45dd4e04996, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -770,7 +774,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &815123366
 GameObject:
@@ -1221,14 +1225,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.25380012, y: -0, z: -0, w: 0.9672567}
-  m_LocalPosition: {x: -3.5, y: 35.6, z: -56}
+  m_LocalRotation: {x: 0.25298822, y: 0.09618886, z: -0.057228487, w: 0.9609733}
+  m_LocalPosition: {x: -11.9, y: 13.3, z: -40.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 29.405, y: 0, z: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 29.818, y: 10.353, z: -4.053}
 --- !u!195 &967352325 stripped
 NavMeshAgent:
   m_CorrespondingSourceObject: {fileID: 2043742917557428012, guid: fd6f818d1c291e742ae9b45dd4e04996, type: 3}
@@ -1248,7 +1252,7 @@ PrefabInstance:
       objectReference: {fileID: 358357485}
     - target: {fileID: 1347496411948600993, guid: fcbcd0556fff5834999cb56c18a543f8, type: 3}
       propertyPath: maxVelocity
-      value: 0.008
+      value: 0.0035
       objectReference: {fileID: 0}
     - target: {fileID: 8105779262279172677, guid: fcbcd0556fff5834999cb56c18a543f8, type: 3}
       propertyPath: m_RootOrder
@@ -1491,6 +1495,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Formation3
       objectReference: {fileID: 0}
+    - target: {fileID: 4543707940384584596, guid: fd6f818d1c291e742ae9b45dd4e04996, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1631,7 +1639,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fishPrefab: {fileID: 7402973378821580820, guid: f410c9380ad309640a7fcf4226fe24a9, type: 3}
-  numFish: 9
+  numFish: 7
   allFish: []
   swimLimits: {x: 5, y: 5, z: 5}
   goalPos: {x: 0, y: 0, z: 0}
@@ -1710,6 +1718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Formation2
       objectReference: {fileID: 0}
+    - target: {fileID: 4543707940384584596, guid: fd6f818d1c291e742ae9b45dd4e04996, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1741,7 +1753,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4881544697034583906, guid: c9cb7e7df4add1247a1b23487689b831, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -24.6
+      value: -23
       objectReference: {fileID: 0}
     - target: {fileID: 4881544697034583906, guid: c9cb7e7df4add1247a1b23487689b831, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1749,7 +1761,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4881544697034583906, guid: c9cb7e7df4add1247a1b23487689b831, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 27.7
+      value: 29.3
       objectReference: {fileID: 0}
     - target: {fileID: 4881544697034583906, guid: c9cb7e7df4add1247a1b23487689b831, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1787,6 +1799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wander
       objectReference: {fileID: 0}
+    - target: {fileID: 5257226497768322520, guid: c9cb7e7df4add1247a1b23487689b831, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1822,6 +1838,10 @@ PrefabInstance:
     - target: {fileID: 8315846252249956336, guid: 84829d7d2d86c2944b5bd51520b7e917, type: 3}
       propertyPath: m_Name
       value: FormationLeader
+      objectReference: {fileID: 0}
+    - target: {fileID: 8315846252249956336, guid: 84829d7d2d86c2944b5bd51520b7e917, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8659299172466255178, guid: 84829d7d2d86c2944b5bd51520b7e917, type: 3}
       propertyPath: m_RootOrder
